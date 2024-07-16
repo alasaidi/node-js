@@ -43,7 +43,7 @@ However, `only authenticated users can add, update, or delete recipes`
 
 ## API Endpoints
 
-### User 
+### User
 
 - **POST /register**: Register a new user.
 - **POST /login**: Authenticate a user and return a token.
