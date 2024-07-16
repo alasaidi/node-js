@@ -12,7 +12,7 @@ sometimes not that helpful.
 */
 
 const firstName = 'John';
-console.log(lastName); // lastName is not defined
+console.log(fi); // lastName is not defined
 
 // Runtime errors
 // ==============

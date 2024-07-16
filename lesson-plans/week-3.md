@@ -9,6 +9,7 @@
 
 - Flights
 - [Template](https://github.com/HackYourFutureBelgium/node-template)
+- 
 
 ## Project Overview
 
@@ -41,7 +42,7 @@ However, `only authenticated users can add, update, or delete flights`
 
 ## API Endpoints
 
-### User 
+### User
 
 - **POST /register**: Register a new user.
 - **POST /login**: Authenticate a user and return a token.

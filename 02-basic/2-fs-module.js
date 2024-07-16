@@ -10,7 +10,8 @@ with the file system on your computer.
 // get the current module's directory path
 const __filename = fileURLToPath(import.meta.url);
 const PATH = dirname(__filename);
-
+console.log(__filename);
+console.log(PATH);
 // Asynchronous File Operations:
 /* 
 write file
@@ -75,33 +76,33 @@ fs.unlink(filePath, (err) => {
 
 // Write a File Synchronously:
 
-try {
-    fs.writeFileSync(filePath, 'This is a synchronous write operation.');
-    console.log('File written synchronously');
-} catch (err) {
-    console.error(err);
-}
+// try {
+//     fs.writeFileSync(filePath, 'This is a synchronous write operation.');
+//     console.log('File written synchronously');
+// } catch (err) {
+//     console.error(err);
+// }
 
 // Read a File Synchronously:
-try {
-    const data = fs.readFileSync('example.txt', 'utf-8');
-    console.log('File contents synchronously:', data);
-} catch (err) {
-    console.error(err);
-}
+// try {
+//     const data = fs.readFileSync('example.txt', 'utf-8');
+//     console.log('File contents synchronously:', data);
+// } catch (err) {
+//     console.error(err);
+// }
 
 // Append to a File Synchronously:
-try {
-    fs.appendFileSync('example.txt', '\nThis is an appended line.');
-    console.log('File appended synchronously');
-} catch (err) {
-    console.error(err);
-}
+// try {
+//     fs.appendFileSync('example.txt', '\nThis is an appended line.');
+//     console.log('File appended synchronously');
+// } catch (err) {
+//     console.error(err);
+// }
 
 // Delete a File Synchronously:
-try {
-    fs.unlinkSync('example.txt');
-    console.log('File deleted synchronously');
-} catch (err) {
-    console.error(err);
-}
+// try {
+//     fs.unlinkSync('example.txt');
+//     console.log('File deleted synchronously');
+// } catch (err) {
+//     console.error(err);
+// }
